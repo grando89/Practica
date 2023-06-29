@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: caviar;
+    src: url(/fonts/CaviarDreams_Bold.ttf);}
+
+
+header {
+    height: 140px;
+    text-align: left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    
+    }
+
+h1{
+    font-size: 50px;
+    font-family: caviar;
+    display: inline;
+
+}
+h2{
+    text-align: center;
+    font-family: caviar;
+    font-size: 30px;
+}
+h3{
+    font-size: 20px;
+}
+
+
+.mainBanio{
+    height: 1200px;
+    background-color: rgb(167, 118, 199);
+    
+}
+.mainConstruccion{
+    height: 1200px;
+    background-color: rgb(167, 118, 199);
+    
+}
+
+.mainElectro{
+    height: 1200px;
+    background-color: rgb(48, 31, 92);
+
+}
+
+.mainConstruccion{
+    height: 1200px;
+    background-color: rgb(48, 31, 92);
+}
+
+.mainCocina {
+    height: 1200px;
+    background-color: rgb(178, 231, 232);  
+}
+.mainJardin {
+    height: 1400px;
+    background-color: rgb(132, 182, 146);  
+}
+.portada{
+    width: 100%;
+    height: 400px;
+    image-rendering: optimizeQuality;
+    border-radius: 5px;
+    border: double;
+    border-style: solid;
+    
+}
+
+
+.menuBanio{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(167, 118, 199) ;
+    font-family: caviar;
+    
+}
+.menuConstruccion{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(167, 118, 199) ;
+    font-family: caviar;
+}
+.menuCocina{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(178, 231, 232) ;
+    font-family: caviar;
+}
+.menuJardin{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(132, 182, 146) ;
+    font-family: caviar;
+}
+
+
+
+div p{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.caja{
+    font-size: 25px;
+    border-width: 4px;
+    border-radius: 5px;
+    margin: 40px;
+    font-family: caviar;
+    
+}
+.container{
+    justify-content: center;
+}
+#menu{
+display: grid;
+grid-template-columns: 100px 100px 100px 100px;
+
+justify-content:space-around;
+text-align: center;
+height: 800px;
+padding: 20px;
+margin: 20px;
+
+}
+
+.caja1 {
+background-color: rgb(182, 212, 221);
+justify-content: center;
+height: 320px;
+width: 200px;
+text-align: center;
+border: double;
+border-radius: 5px;
+font-size: 15px;
+}
+
+div h2{
+    font-size: 15px;
+}
+
+
+.caja1 div img{
+width: 100%;
+}
+button{
+    color: blueviolet;
+}
+a{
+    color: rgb(18, 75, 197);
+    text-decoration: none;
+}
+
+#footer2{
+    height: 150px;
+    background-color: rgb(58, 27, 5);
+    background-image: url(/img/fondo\ ladrillo.jpg);
+    background-size: cover;
+    text-align: center;
+    }
